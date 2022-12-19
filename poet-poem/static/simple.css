@@ -1,0 +1,10 @@
+body{
+   background-color: blue;
+   color:rgb(224, 30, 16);
+   font-family:Arial, Helvetica, sans-serif;
+   padding:2rem;
+}
+.error{
+   background-color: darksalmon;
+   color: darkred;
+}

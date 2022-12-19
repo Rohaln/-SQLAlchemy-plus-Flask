@@ -1,0 +1,145 @@
+{
+"types":
+[
+{
+"type":"Fire",
+"weaknessOne":"Rock",
+"weaknessTwo":"Water",
+"supereffectiveOne":"Bug",
+"supereffectiveTwo":"Grass",
+"pokemon":[
+{
+"name":"Charizard",
+"preevolutionOne":"Charmander",
+"preevolutionTwo":"Charmeleon"
+},
+{
+    "name":"Blaziken",
+    "preevolutionOne":"Torchic",
+    "preevolutionTwo":"Combusken"
+},
+{
+    "name":"Volcarona",
+    "preevolutionOne":"Larvesta",
+    "preevolutionTwo":"N/a"
+},
+{
+    "name":"Volcanion",
+    "preevolutionOne":"N/a",
+    "preevolutionTwo":"N/a"
+},
+{
+    "name":"Centiskorch",
+    "preevolutionOne":"Sizzlipede",
+    "preevolutionTwo":"Centiskorch"
+}
+]
+},
+{
+"type":"Fairy",
+"weaknessOne":"Poison",
+"weaknessTwo":"Steel",
+"supereffectiveOne":"Fighting",
+"supereffectiveTwo":"Dragon",
+"pokemon":[
+{
+    "name":"Grimmsnarl",
+    "preevolutionOne":"Impidimp",
+    "preevolutionTwo":"Morgrem"
+},
+{
+    "name":"Zacian",
+    "preevolutionOne":"N/a",
+    "preevolutionTwo":"N/a"
+},
+{
+    "name":"Gardevoir",
+    "preevolutionOne":"Ralts",
+    "preevolutionTwo":"Kirlia"
+},
+{
+    "name":"Togekiss",
+    "preevolutionOne":"Togepi",
+    "preevolutionTwo":"Togetic"
+},
+{
+    "name":"Magearna",
+    "preevolutionOne":"N/a",
+    "preevolutionTwo":"N/a"
+},
+{
+    "name":"Sylveon",
+    "preevolutionOne":"Eevee",
+    "preevolutionTwo":"N/a"
+}
+]
+},
+{
+"type":"Ghost",
+"weaknessOne":"Ghost",
+"weaknessTwo":"Dark",
+"supereffectiveOne":"Ghost",
+"supereffectiveTwo":"Psychic",
+"pokemon":[
+{
+    "name":"Palossand",
+    "preevolutionOne":"Sandygast",
+    "preevolutionTwo":"N/a"
+},
+{
+    "name":"Dragapult",
+    "preevolutionOne":"Dreepy",
+    "preevolutionTwo":"Drakloak"
+}
+]
+},
+{
+"type":"Ground",
+"weaknessOne":"Water",
+"weaknessTwo":"Grass",
+"supereffectiveOne":"Fire",
+"supereffectiveTwo":"Steel",
+"pokemon":[
+{
+    "name":"Zygarde Complete",
+    "preevolutionOne":"Zygarde 10%",
+    "preevolutionTwo":"Zygarde"
+},
+{
+    "name":"Sandaconda",
+    "preevolutionOne":"Silicobra",
+    "preevolutionTwo":"N/a"
+},
+{
+    "name":"Garchomp",
+    "preevolutionOne":"Gible",
+    "preevolutionTwo":"Gabite"
+}
+]
+},
+{
+"type":"Flying",
+"weaknessOne":"Rock",
+"weaknessTwo":"Ice",
+"supereffectiveOne":"Fighting",
+"supereffectiveTwo":"Grass",
+"pokemon":[
+{
+    "name":"Butterfree",
+    "preevolutionOne":"Caterpie",
+    "preevolutionTwo":"Metapod"
+},
+{
+    "name":"Pelipper",
+    "preevolutionOne":"Wingull",
+    "preevolutionTwo":"N/a"
+},
+{
+    "name":"Talonflame",
+    "preevolutionOne":"Fletchling",
+    "preevolutionTwo":"Fletchinder"
+}
+]
+}
+]
+}

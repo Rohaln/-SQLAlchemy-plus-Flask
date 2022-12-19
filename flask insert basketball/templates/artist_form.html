@@ -1,0 +1,60 @@
+{% extends "simple_layout.html" %}
+
+{% block title %} {{title}}  {% endblock title %}
+{% block header %} {{header}}  {% endblock header %}
+
+{% block content %} 
+<form action="" method="post">
+   {{ form.csrf_token }}
+
+   <div>
+      {{form.fullName.label}}
+      <span class="error">{{ form.fullName.errors | join("|") }}</span>
+   </div>
+   <div>
+      {{form.fullName}}
+   </div>
+
+   <div>
+      {{form.position.label}}
+   </div>
+   <div>
+      {{form.position}}
+   </div>
+ 
+   <div>
+      {{form.college.label}}
+      <span class="error">{{ form.college.errors | join("|") }}</span>
+   </div>
+   <div>
+      {{form.college}}
+   </div>
+
+   <div>
+      {{form.height.label}}
+      <span class="error">{{ form.height.errors | join("|") }}</span>
+   </div>
+   <div>
+      {{form.height}}
+   </div>
+
+   <div>
+      {{form.weight.label}}
+      <span class="error">{{ form.weight.errors | join("|") }}</span>
+   </div>
+   <div>
+      {{form.weight}}
+   </div>
+
+   <div>
+      {{form.sal.label}}
+   </div>
+   <div>
+      {{form.sal}}
+   </div>
+   <!-- SUBMIT -->
+   <div>
+      {{form.submit()}}
+   </div>
+</form>
+{% endblock content %}

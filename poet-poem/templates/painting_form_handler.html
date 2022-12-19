@@ -1,0 +1,16 @@
+{% extends "simple_layout.html" %}
+
+{% block title %} {{title}}  {% endblock title %}
+{% block header %} {{header}}  {% endblock header %}
+
+{% block content %} 
+   <p>
+      Title: {{ result["title"] }} 
+   </p>
+   <p>
+      Release Date: {{ result["releasedate"] }} 
+   </p>
+   <p>
+      Poet ID: {{ result["poet_id"] }} 
+   </p>
+{% endblock content %}

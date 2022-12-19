@@ -1,0 +1,25 @@
+{% extends "simple_layout.html" %}
+
+{% block title %} {{title}}  {% endblock title %}
+{% block header %} {{header}}  {% endblock header %}
+
+{% block content %} 
+   <p>
+      Name: {{ result["fullName"] }} 
+   </p>
+   <p>
+      Position: {{ result["position"] }} 
+   </p>
+   <p>
+      Salary: {{ result["sal"] }} 
+   </p>
+   <p>
+      College: {{ result["college"] }} 
+   </p>
+   <p>
+      Height: {{ result["height"] }} 
+   </p>
+   <p>
+      Weight: {{ result["weight"] }} 
+   </p>
+{% endblock content %}

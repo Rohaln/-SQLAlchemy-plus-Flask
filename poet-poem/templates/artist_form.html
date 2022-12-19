@@ -1,0 +1,58 @@
+{% extends "simple_layout.html" %}
+
+{% block title %} {{title}}  {% endblock title %}
+{% block header %} {{header}}  {% endblock header %}
+
+{% block content %} 
+<form action="" method="post">
+   {{ form.csrf_token }}
+
+   <div>
+      {{form.lastName.label}}
+      <span class="error">{{ form.lastName.errors | join("|") }}</span>
+   </div>
+   <div>
+      {{form.lastName}}
+   </div>
+ 
+   <div>
+      {{form.firstName.label}}
+      <span class="error">{{ form.firstName.errors | join("|") }}</span>
+   </div>
+   <div>
+      {{form.firstName}}
+   </div>
+
+   <div>
+      {{form.country.label}}
+      <span class="error">{{ form.country.errors | join("|") }}</span>
+   </div>
+   <div>
+      {{form.country}}
+   </div>
+
+   <div>
+      {{form.birthDate.label}}
+   </div>
+   <div>
+      {{form.birthDate}}
+   </div>
+
+   <div>
+      {{form.deathDate.label}}
+   </div>
+   <div>
+      {{form.deathDate}}
+   </div>
+   <div>
+      {{form.networth.label}}
+   </div>
+   <div>
+      {{form.networth}}
+   </div>
+   <!-- SUBMIT -->
+   <div>
+      {{form.submit()}}
+   </div>
+</form>
+{% endblock content %}

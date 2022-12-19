@@ -1,0 +1,131 @@
+{
+"painters":
+[
+{
+"lastName":"Manet",
+"firstName":"Edouard",
+"countryIcon":"France-Flag-icon.png",
+"countryName":"France",
+"birthDate":"1/23/1832",
+"deathDate":"4/30/1883",
+"paintings":[
+{
+"title":"Le Dejeuner sur l'herbe",
+"filename":"dejeuner.jpg"
+},
+{
+"title":"The Balcony",
+"filename":"balcony.jpg"
+},
+{
+"title":"Le Bar aux Folies-Bergere",
+"filename":"bar.jpg"
+},
+{
+"title":"Portrait d'Emile Zola",
+"filename":"zola.jpg"
+},
+{
+"title":"Olympia",
+"filename":"olympia.jpg"
+}
+]
+},
+{
+"lastName":"Seurat",
+"firstName":"Georges",
+"countryIcon":"France-Flag-icon.png",
+"countryName":"France",
+"birthDate":"12/2/1859",
+"deathDate":"3/29/1891",
+"paintings":[
+{
+"title":"Sunday Afternoon on the Island of the Grande Jatte",
+"filename":"grande-jatte.jpg"
+},
+{
+"title":"Bathing at Asnieres",
+"filename":"baignade.jpg"
+},
+{
+"title":"The Models",
+"filename":"models.jpg"
+},
+{
+"title":"The Side Show",
+"filename":"sideshow.jpg"
+},
+{
+"title":"Young Woman Powdering Herself",
+"filename":"powdering.jpg"
+},
+{
+"title":"The Circus",
+"filename":"circus.jpg"
+}
+]
+},
+{
+"lastName":"Rousseau",
+"firstName":"Henri",
+"countryIcon":"France-Flag-icon.png",
+"countryName":"France",
+"birthDate":"5/21/1844",
+"deathDate":"9/2/1910",
+"paintings":[
+{
+"title":"The Sleeping Gypsy",
+"filename":"gypsy.jpg"
+},
+{
+"title":"The Dream",
+"filename":"dream.jpg"
+}
+]
+},
+{
+"lastName":"Klimt",
+"firstName":"Gustav",
+"countryIcon":"Austria-Flag-icon.png",
+"countryName":"Austria",
+"birthDate":"7/14/1862",
+"deathDate":"2/6/1918",
+"paintings":[
+{
+"title":"Wasserschlangen I",
+"filename":"wasserschlangen.jpg"
+},
+{
+"title":"Adele Bloch-Bauer I",
+"filename":"adele-bloch-bauer.jpg"
+},
+{
+"title":"The Kiss",
+"filename":"kiss.jpg"
+}
+]
+},
+{
+"lastName":"Whistler",
+"firstName":"James Abbott McNeill",
+"countryIcon":"United-States-Flag-icon.png",
+"countryName":"USA",
+"birthDate":"7/14/1834",
+"deathDate":"7/17/1903",
+"paintings":[
+{
+"title":"Symphony in White, No. 1: The White Girl",
+"filename":"white-girl.jpg"
+},
+{
+"title":"Arrangement in Grey and Black: Portrait of the Painter's Mother",
+"filename":"mother.jpg"
+},
+{
+"title":"Nocturne in Blue and Gold: Old Battersea Bridge",
+"filename":"battersea.jpg"
+}
+]
+}
+]
+}

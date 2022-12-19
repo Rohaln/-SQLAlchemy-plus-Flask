@@ -1,0 +1,25 @@
+{% extends "simple_layout.html" %}
+
+{% block title %} {{title}}  {% endblock title %}
+{% block header %} {{header}}  {% endblock header %}
+
+{% block content %} 
+   <p>
+      Last Name: {{ result["lastName"] }} 
+   </p>
+   <p>
+      First Name: {{ result["firstName"] }} 
+   </p>
+   <p>
+      Country: {{ result["country"] }} 
+   </p>
+   <p>
+      Birth date: {{ result["birthDate"] }} 
+   </p>
+   <p>
+      Death date: {{ result["deathDate"] }} 
+   </p>
+   <p>
+      Net Worth: {{ result["networth"] }} 
+   </p>
+{% endblock content %}

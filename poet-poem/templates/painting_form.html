@@ -1,0 +1,43 @@
+{% extends "simple_layout.html" %}
+
+{% block title %} {{title}}  {% endblock title %}
+{% block header %} {{header}}  {% endblock header %}
+
+{% block content %} 
+<form action="" method="post">
+   {{ form.csrf_token }}
+
+   <div>
+      {{form.title.label}}
+      <span class="error">{{ form.title.errors | join("|") }}</span>
+   </div>
+   <div>
+      {{form.title}}
+   </div>
+ 
+   <div>
+      {{form.releasedate.label}}
+   </div>
+   <div>
+      {{form.releasedate}}
+   </div>
+
+   <div>
+      {{form.poet_id.label}}     
+   </div>
+   <div>
+      {{form.poet_id}}
+   </div>
+
+   
+   <!-- SUBMIT -->
+   <div>
+      {{form.submit()}}
+   </div>
+</form>
+{% for field, errors in form.errors.items() %}
+<div class="alert alert-error">
+    {{ form[field].label }}: {{ ', '.join(errors) }}
+</div>
+{% endfor %}
+{% endblock content %}
